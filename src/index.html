@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss & Parcel</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="max-w-s p-6">
+    <header class="mb-16 flex items-center justify-between">
+      <div class="relative h-9 w-9 bg-orange-600">
+        <p class="absolute left-1 top-1 text-xs font-bold uppercase text-white">
+          TM
+        </p>
+      </div>
+      <a
+        class="rounded-md bg-slate-300 p-3 font-medium uppercase text-black"
+        href="#"
+        >Pre-order now</a
+      >
+    </header>
+    <main>
+      <section class="mb-16">
+        <h1 class="mb-8 text-5xl font-black uppercase tracking-tight">
+          Typemaster Keyboard
+        </h1>
+        <p class="mb-8 leading-7 text-slate-500">
+          Improve your productivity and gaming without breaking the bank.
+          Upgrade to a high quality mechanical typing experience.
+        </p>
+        <div class="flex items-center justify-between">
+          <a
+            class="rounded-md bg-orange-600 p-3 font-medium uppercase text-white"
+            href="#"
+            >Pre-order now</a
+          >
+          <p class="font-medium uppercase text-slate-500">Release on 5/27</p>
+        </div>
+      </section>
+
+      <section class="mb-20">
+        <picture>
+          <source
+            srcset="../assets/desktop/image-keyboard.jpg"
+            media="(min-width: 1440px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="../assets/tablet/image-keyboard.jpg"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <img
+            src="../assets/mobile/image-keyboard.jpg"
+            alt="keyboard on desk"
+            class="relative -right-6 mb-6 rounded-bl-lg rounded-tl-lg"
+          />
+        </picture>
+
+        <div class="flex items-center gap-1">
+          <div class="relative">
+            <span
+              class="bg-oran absolute right-6 z-10 h-full w-full rounded-br-xl rounded-tr-xl bg-orange-700/80"
+            ></span>
+            <picture>
+              <source
+                srcset="../assets/desktop/image-phone-and-keyboard.jpg"
+                media="(min-width: 1440px)"
+                type="image/jpg"
+              />
+              <source
+                srcset="../assets/tablet/image-phone-and-keyboard.jpg"
+                media="(min-width: 768px)"
+                type="image/jpg"
+              />
+              <img
+                src="../assets/mobile/image-phone-and-keyboard.jpg"
+                alt="phone and keyboard on desk"
+                class="relative right-6 rounded-br-xl rounded-tr-xl bg-blend-screen"
+              />
+            </picture>
+          </div>
+          <picture>
+            <source
+              srcset="../assets/desktop/image-glass-and-keyboard.jpg"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="../assets/tablet/image-glass-and-keyboard.jpg"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+            <img
+              src="../assets/mobile/image-glass-and-keyboard.jpg"
+              alt="phone and keyboard on desk"
+              class="rounded-xl"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="mb-28">
+        <h2 class="mb-6 text-center text-3xl font-black uppercase">
+          Mechanical Wireless Keyboard
+        </h2>
+        <p class="text-center leading-7 text-slate-500">
+          The Typemaster keyboard boasts top-notch build and practical design.
+          It offers a wide variety of switches and keycaps, along with reliable
+          wireless connectivity.
+        </p>
+      </section>
+
+      <section>
+        <div class="mb-16">
+          <div
+            class="mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-md bg-orange-500"
+          >
+            <img
+              src="../assets/shared/icon-compatible.svg"
+              alt="computer screen"
+            />
+          </div>
+          <h3 class="mb-6 text-center text-2xl font-black uppercase">
+            Highly<br />Compatible
+          </h3>
+          <p class="text-center text-slate-500">
+            Easy to use and works well with all major computer brands, gaming
+            consoles and mobile devices. Plug & play, no installation or driver
+            needed.
+          </p>
+        </div>
+        <div class="mb-16">
+          <div
+            class="mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-md bg-orange-500"
+          >
+            <img
+              src="../assets/shared/icon-bluetooth.svg"
+              alt="bluetooth logo"
+            />
+          </div>
+          <h3 class="mb-6 text-center text-2xl font-black uppercase">
+            Wireless<br />With Bluetooth
+          </h3>
+          <p class="text-center text-slate-500">
+            Powerful 2.4G RF technology allows you to connect the cordless
+            keyboard from up to 30ft away. Simply plug the unifying receiver
+            into your computer.
+          </p>
+        </div>
+        <div class="mb-16">
+          <div
+            class="mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-md bg-orange-500"
+          >
+            <img
+              src="../assets/shared/icon-battery.svg"
+              alt="flat 2D battery"
+            />
+          </div>
+          <h3 class="mb-6 text-center text-2xl font-black uppercase">
+            High Capacity<br />Battery
+          </h3>
+          <p class="text-center text-slate-500">
+            Equipped with a long-lasting built-in battery, you’ll never have to
+            spend a dime on replaceable ones. Enjoy 40 hours of usage time
+            between charges.
+          </p>
+        </div>
+        <div class="mb-24">
+          <div
+            class="mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-md bg-orange-500"
+          >
+            <img
+              src="../assets/shared/icon-compatible.svg"
+              alt="computer screen"
+            />
+          </div>
+          <h3 class="mb-6 text-center text-2xl font-black uppercase">
+            RGB Backlight<br />Modes
+          </h3>
+          <p class="text-center text-slate-500">
+            Choose from 4 backlight brightness levels and adjustable breathing
+            speed. Each key glows intensely in the dark and helps you type in
+            low light conditions.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="pb-6">
+      <p class="text-center text-slate-600">
+        <span class="font-medium">Typemaster 2023</span> | All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
