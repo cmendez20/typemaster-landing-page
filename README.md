@@ -1,1 +1,3 @@
-# Tailwindcss Starter Template using Parcel
+# Typemaster Landing Page
+
+Built with HTML, Tailwindcss, & Parcel
