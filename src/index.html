@@ -6,26 +6,30 @@
     <title>Typemaster Keyboards</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
-  <body class="max-w-s p-6 md:p-[2.5rem]">
-    <header class="mb-16 flex items-center justify-between">
+  <body class="max-w-s p-6 md:p-[2.5rem] xl:px-32 xl:py-14">
+    <header class="mb-16 flex items-center justify-between lg:mb-20">
       <div class="relative h-9 w-9 bg-orange-600">
         <p class="absolute left-1 top-1 text-xs font-bold uppercase text-white">
           TM
         </p>
       </div>
       <a
-        class="rounded-md bg-slate-300 p-3 font-medium uppercase text-black"
+        class="rounded-md bg-slate-300 p-3 font-medium uppercase text-black hover:bg-slate-800 hover:text-white"
         href="#"
         >Pre-order now</a
       >
     </header>
     <main>
-      <section class="mb-6 md:mb-[2.5rem] md:grid md:grid-cols-2">
-        <div class="md:max-w-sm">
-          <h1 class="mb-8 text-5xl font-black uppercase tracking-tight">
+      <section
+        class="mb-6 md:mb-[2.5rem] md:grid md:grid-cols-2 lg:mb-[1.875rem] lg:items-center lg:justify-items-start"
+      >
+        <div class="md:max-w-sm lg:max-w-md">
+          <h1
+            class="mb-8 text-5xl font-black uppercase tracking-tight lg:text-[3.5rem]"
+          >
             Typemaster Keyboard
           </h1>
-          <p class="mb-8 leading-7 text-slate-500">
+          <p class="mb-8 leading-7 text-slate-500 lg:text-lg">
             Improve your productivity and gaming without breaking the bank.
             Upgrade to a high quality mechanical typing experience.
           </p>
@@ -33,7 +37,7 @@
             class="mb-20 flex items-center justify-between md:justify-start md:gap-10"
           >
             <a
-              class="rounded-md bg-orange-600 p-3 font-medium uppercase text-white"
+              class="rounded-md bg-orange-600 p-3 font-medium uppercase text-white hover:bg-orange-400"
               href="#"
               >Pre-order now</a
             >
@@ -55,70 +59,77 @@
           <img
             src="../assets/mobile/image-keyboard.jpg"
             alt="keyboard on desk"
-            class="relative -right-6 rounded-bl-lg rounded-tl-lg"
+            class="relative -right-6 rounded-bl-lg rounded-tl-lg lg:right-0 lg:max-h-[33.75rem] lg:rounded-3xl"
           />
         </picture>
       </section>
 
-      <div class="mb-[4.6875rem] flex items-center gap-1 md:mb-[4.5rem]">
-        <div class="relative">
-          <span
-            class="bg-oran absolute right-6 z-10 h-full w-full rounded-br-xl rounded-tr-xl bg-orange-700/80 md:rounded-lg"
-          ></span>
+      <div
+        class="flex flex-col items-center gap-[4.6875rem] md:gap-[4.5rem] lg:mb-40 lg:flex-row lg:gap-32"
+      >
+        <div class="flex lg:gap-[1.875rem]">
+          <div class="relative">
+            <span
+              class="bg-oran absolute right-6 z-10 h-full w-full rounded-br-xl rounded-tr-xl bg-orange-700/80 md:rounded-lg lg:right-0 lg:rounded-3xl"
+            ></span>
+            <picture>
+              <source
+                srcset="../assets/desktop/image-phone-and-keyboard.jpg"
+                media="(min-width: 1440px)"
+                type="image/jpg"
+              />
+              <source
+                srcset="../assets/tablet/image-phone-and-keyboard.jpg"
+                media="(min-width: 768px)"
+                type="image/jpg"
+              />
+              <img
+                src="../assets/mobile/image-phone-and-keyboard.jpg"
+                alt="phone and keyboard on desk"
+                class="relative right-6 rounded-br-xl rounded-tr-xl bg-blend-screen md:rounded-lg lg:right-0 lg:max-w-[15.9375rem] lg:rounded-3xl"
+              />
+            </picture>
+          </div>
           <picture>
             <source
-              srcset="../assets/desktop/image-phone-and-keyboard.jpg"
+              srcset="../assets/desktop/image-glass-and-keyboard.jpg"
               media="(min-width: 1440px)"
               type="image/jpg"
             />
             <source
-              srcset="../assets/tablet/image-phone-and-keyboard.jpg"
+              srcset="../assets/tablet/image-glass-and-keyboard.jpg"
               media="(min-width: 768px)"
               type="image/jpg"
             />
             <img
-              src="../assets/mobile/image-phone-and-keyboard.jpg"
+              src="../assets/mobile/image-glass-and-keyboard.jpg"
               alt="phone and keyboard on desk"
-              class="relative right-6 rounded-br-xl rounded-tr-xl bg-blend-screen md:rounded-lg"
+              class="rounded-xl lg:max-w-[27.8125rem] lg:rounded-3xl"
             />
           </picture>
         </div>
-        <picture>
-          <source
-            srcset="../assets/desktop/image-glass-and-keyboard.jpg"
-            media="(min-width: 1440px)"
-            type="image/jpg"
-          />
-          <source
-            srcset="../assets/tablet/image-glass-and-keyboard.jpg"
-            media="(min-width: 768px)"
-            type="image/jpg"
-          />
-          <img
-            src="../assets/mobile/image-glass-and-keyboard.jpg"
-            alt="phone and keyboard on desk"
-            class="rounded-xl"
-          />
-        </picture>
+
+        <section
+          class="mb-28 md:mb-36 md:flex md:items-center md:justify-center lg:mb-0 lg:max-w-[15.9375rem] lg:flex-col lg:gap-7"
+        >
+          <h2
+            class="mb-6 text-center text-3xl font-black uppercase md:mb-0 md:max-w-xs md:text-left"
+          >
+            Mechanical Wireless Keyboard
+          </h2>
+          <p
+            class="text-center leading-7 text-slate-500 md:max-w-md md:text-left"
+          >
+            The Typemaster keyboard boasts top-notch build and practical design.
+            It offers a wide variety of switches and keycaps, along with
+            reliable wireless connectivity.
+          </p>
+        </section>
       </div>
 
-      <section class="mb-28 md:mb-36 md:flex md:items-center md:justify-center">
-        <h2
-          class="mb-6 text-center text-3xl font-black uppercase md:mb-0 md:max-w-xs md:text-left"
-        >
-          Mechanical Wireless Keyboard
-        </h2>
-        <p
-          class="text-center leading-7 text-slate-500 md:max-w-md md:text-left"
-        >
-          The Typemaster keyboard boasts top-notch build and practical design.
-          It offers a wide variety of switches and keycaps, along with reliable
-          wireless connectivity.
-        </p>
-      </section>
-
-      <!-- <section class="md:grid md:grid-cols-2 md:gap-14"> -->
-      <section class="md:mb-36 md:grid md:grid-cols-[305px_305px] md:gap-24">
+      <section
+        class="md:mb-36 md:grid md:grid-cols-[305px_305px] md:gap-24 lg:mb-32 lg:grid-cols-[255px_255px_255px_255px] lg:justify-between"
+      >
         <div class="mb-16">
           <div
             class="mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-md bg-orange-500 md:mx-0"
